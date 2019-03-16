@@ -1,0 +1,90 @@
+#scroller{
+			position: fixed;    
+			bottom: 30px;
+			right: 30px;
+			background: transparent url(../img/btn_up.png) no-repeat left top;  
+			width: 88px;
+			height: 125px;
+			cursor: pointer;
+		}
+
+.navbar {
+    border: 0px;
+    background: none;
+}
+
+#bs-example-navbar-collapse-1 ul li a{
+    color: #837880;  
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#bs-example-navbar-collapse-1 ul li a:hover{
+    text-decoration: underline;
+    color: #d4b9bb;
+}
+
+.float_right{
+    float: right;
+}
+
+.inst{
+    background: url(../img/social.png);
+    width: 32px;
+    height: 32px;
+}
+
+.inst:hover{
+    background-position: 0 32px;
+}
+
+.fb{
+    background: url(../img/social.png);
+    background-position: 32px 0;
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+
+.fb:hover{
+    background-position: 32px 32px;
+}
+
+.my_nav{
+    padding-left: 100px;
+}
+
+.bg_1{
+    width: 100%;
+    height: auto;
+}
+
+.my_btn{
+    background: rgba(0,0,0,0);
+    width: 200px;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #837880;
+    border-top: 3px solid rgba(131,120,128, .5);
+    border-bottom: 3px solid rgba(131,120,128, .5);
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+}
+
+.my_class{
+    position: relative;
+}
+
+.my_style{
+    margin-left: 15%;
+    top: 30%;
+    position: absolute;
+    text-align: center;
+    color: #837880;
+/*    font-family: "Playfair Display";*/
+    font-size: 90px;
+    font-weight: 400;
+}

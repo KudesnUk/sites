@@ -1,0 +1,335 @@
+@font-face{
+    font-family: madee ;
+    src: url("../fonts/MADE Evolve Sans Regular EVO.otf");
+}
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*main css*/
+.wrapper{
+    position: relative;
+    font-family: madee;
+    margin: 0 auto;
+    width: 1200px;
+    background: white;
+    height: 100%;
+    z-index: 0;
+}
+
+body{
+    background: darkgray;
+}
+
+a{
+    text-decoration: none;
+    color: lime;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+
+#logo{
+    position: relative;
+    left: 350px;
+    width: 200px;
+}
+.main_menu{
+    text-align: right;
+    margin-right: 350px;
+    margin-top: -75px;
+}
+
+.main_menu ul li{
+    position: relative;
+    font-size: 25px;
+    display: inline-block;
+    background: gray;
+}
+.main_menu ul li:hover{
+      background: lightgray;
+}
+
+.main_menu ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    display: block;
+}
+
+.main_menu ul li ul{
+    position: absolute;    
+    top: 100%;
+    left: 0;
+    padding-top: 5px;
+    opacity: 1;
+    z-index: 5;
+}
+
+.main_menu ul li ul li{
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    height: 500px;
+}
+.main_menu ul li:hover ul{
+    opacity: 1;
+    transition: all .5s ease;
+    
+}
+
+/*galery*/
+
+.nvidia{
+    color: green;
+}
+
+.amd{
+    color: red;
+}
+
+#in_card{
+    width: 500px;
+    height: auto;
+}
+
+#out_card{
+    width: 500px;
+    height: auto;
+}
+#logo_amd{
+    width: 500px;
+    height: auto;
+}
+
+p{
+    font-size: 20px;
+}
+
+/*float table-cell inlineblock*/
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float{
+    float: left;
+}
+
+.color_red{
+	background: red;	
+}
+
+.color_green{
+	background: green;	
+}
+
+.color_yellow{
+	background: yellow;
+}
+
+.color_orange{
+	background: orange;	
+}
+
+.color_blue{
+	background: blue;	
+}
+
+.color_aqua{
+	background: aqua;
+}
+
+.color_lime{
+	background: lime;
+}
+
+.color_coral{
+	background-color:coral ;
+}
+
+#wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+/*unit_1*/
+.unit1{
+height: 300px;
+}
+.block1{
+	width: 400px;
+	height: 300px;
+	display: table-cell;
+}
+
+
+/*unit_2*/
+.unit2>div{
+	display: table-cell;
+}
+
+.block2_1{
+     width: 800px;
+     height:400px;
+}
+
+.block2_2,.block2_3{
+    display: block;
+    width: 800px;
+    height: 200px;
+}
+
+
+
+/*unit_3*/
+.unit3>div{
+	display: table-cell;
+	height: 300px;
+}
+
+.block3_3{
+    width: 800px;
+}
+
+.block3_2,.block3_1{
+    width: 200px;
+}
+
+
+/*unit_4*/
+.unit4>div{
+	display: table-cell;
+	height: 300px;
+
+}
+.block4_1 {
+    width: 800px;
+}
+.block4_3,.block4_4{
+    display: block;
+    width: 400px;
+    height: 150px;
+}
+
+.block4_5,.block4_6{
+    display: table-cell;
+    width: 200px;
+    height: 150px;
+}
+
+
+/*unit_5*/
+.unit5>div{
+	display: table-cell;
+    height: 300px;
+}
+.block5_1{
+    width: 400px
+}
+.block5_3,.block5_4{
+    display: block;
+    height: 150px;
+    width: 800px;
+}
+.block5_5,.block5_6{
+    display: table-cell;
+    width: 400px;
+    height: 150px;
+}
+.block5_7,.block5_8{
+    display: block;
+    width: 400px;
+    height: 75px;
+}
+
+
+/*unit_6*/
+.unit6>div{
+	width: 400px;
+	display: table-cell;
+}
+.block6{
+    height: 300px;
+}
+.block6_2{
+    height: 150px;
+    width: 400px;
+    display: block;
+}
+.block6_3{
+    height: 75px;
+    width: 400px;
+    display: block;
+}
+.block6_4{
+    height: 75px;
+    width: 400px;
+    display: table-cell;
+}
+
+.in_line{
+    display: inline-block;
+    width: 400px;
+}
+
+/*forms*/
+
+#btn{
+    width: 100px;
+}
+
